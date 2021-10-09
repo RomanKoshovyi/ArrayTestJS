@@ -1,11 +1,12 @@
 ﻿let
     arr = new Array(), num, min, max, sum,
     elems = document.getElementById("elems"),
-    size = document.getElementById("size");
+    size = document.getElementById("size"),
     out = document.getElementById("output");
 
 function Clear(){
     elems.innerHTML = "";
+    out.innerHTML = "";
     sum = 0;
 }
 
